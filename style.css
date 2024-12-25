@@ -1,0 +1,89 @@
+*{
+    box-sizing:border-box;
+    margin: 0%;
+    /* border:1px solid black; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar{
+    background-color: #e91e63;
+}
+.navbar-brand{
+    width:10%;
+}
+.nav-link{
+    color: white;
+    font-weight: bold;
+}
+/* home section */
+.bgimg{
+    background-image: url("https://media.istockphoto.com/id/1192950454/photo/food-banner-for-website-with-fresh-fruit-top-view.jpg?s=612x612&w=0&k=20&c=UiGGfZzYHLlOiX9hgz9-c2yoPiLvqPtNulkL6mebSW8=");
+    width: 100vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+.hpart h1{
+    color: white;
+    text-shadow: 1px 2px 3px black;
+}
+.hpart .btn{
+    font-weight: bold;
+}
+.hpart .btn{
+    font-weight: bold;
+}
+/* about section */
+.acontent h1 {
+    color:#e91e63;
+    margin-top: 3%;
+}
+.acontent p{
+    color: green;
+    margin-top: 3%;
+    line-height: 30px;
+}
+/* products */
+.card-img-top {
+    width: 70%;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-title{
+    color:#e91e63;
+}
+.card-text{
+    color:forestgreen;
+    font-weight: bold;
+}
+/* payment */
+.input-group-text{
+    background-color:#e91e63;
+    color:white;
+    border:none;
+    font-weight: bold;
+}
+/* contact */
+.form-label{
+    color:#e91e63;
+    font-weight: bold;
+}
+/* footer */
+.footer{
+    background-color: #e91e63;
+}
+.fhead{
+    color:white;
+    font-weight: bold;
+    text-decoration: underline 4px solid gold;
+}
+.icons .fa-brands{
+    font-size: 25px;
+    color: whitesmoke;
+    margin:1%;
+}
+.icons .fa-brands:hover {
+    color:greenyellow
+}
